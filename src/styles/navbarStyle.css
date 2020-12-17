@@ -1,0 +1,42 @@
+#navbar {
+    width: 100%;
+    background-color: #141414;
+    box-shadow: none;
+}
+
+#logo {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-left: 0.2em;
+    margin-top: 0.5em;
+    color: #03bac0;
+}
+
+#nav {
+    color: white;
+    font-family: 'lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+a:hover {
+    width: fit-content;
+    background-color: #cb4335;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 3px;
+}
+
+#navbarCollapse {
+    margin-left: 0em;
+}
+
+#toggle {
+    background-color: white;
+    margin-right: 0.5em;
+}

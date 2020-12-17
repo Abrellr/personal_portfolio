@@ -1,0 +1,89 @@
+#techContainer {
+    width: 100vw;
+    min-height: 100%;
+    background-color: #141414;
+    background-image: url('../images/wave2.png');
+    background-repeat: no-repeat;
+    background-size: 80vw 70vh;
+    background-position: top right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#techRow {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    margin-top: 3em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#techRow2{
+    height: 100%;
+    margin-bottom: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+#techText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #cb4335;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#techCard {
+    width: 22rem;
+    height: 23rem;
+    margin: 1.5em;
+}
+
+#techBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#techIcon {
+    margin-bottom: 0.5em;
+}
+
+#titleBox {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#techTitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+#quoteAuthor {
+    font-family: 'lato', sans-serif;
+    font-size: 1rem;
+    color: #cb4335;
+}
+
+#techDetail {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+  @media screen and (max-width: 600px) {
+    #techContainer {
+        background-size: 100vw 50vh;
+    }
+  }

@@ -1,0 +1,25 @@
+#footerContainer {
+    width: 100vw;
+    height: fit-content;
+    background-color: #03989e;
+
+}
+
+#socialRow, #closingRow  {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5em;
+    font-size: 1rem;
+}
+
+
+#copyRow {
+    display: flex;
+    justify-content: center;
+    margin-top: 0em;
+    font-size: 1rem;
+}
+
+#socialIcon {
+    margin: 0em 0.5em 0em 0.5em;
+}

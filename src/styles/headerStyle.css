@@ -1,0 +1,72 @@
+#header {
+    background-image: url('../images/wave.png');
+    background-position: bottom;
+    background-size: 100vw 90vh;
+    background-repeat: no-repeat;
+    background-color: #141414;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 0em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#text {
+    height: fit-content;
+    width: inherit;
+    margin-top: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+#hello {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#hello2 {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    #hello {
+      font-size: 4rem;
+      font-weight: 800;
+      margin-top: 1em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #hello {
+      font-size: 4rem;
+      font-weight: 800;
+    } 
+    #hello2 {
+        font-size: 6vw;
+        font-weight: 400;
+      } 
+    #text {
+        margin-top: 8em;
+    }
+    #header {
+        background-size: 100vw 50vh;
+        height: 70vh;
+    }
+  }

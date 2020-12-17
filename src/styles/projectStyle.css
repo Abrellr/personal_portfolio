@@ -1,0 +1,77 @@
+#projectContainer {
+    width: 100vw;
+    min-height: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;    
+    background-color: #141414;
+    padding: 2em;
+}
+
+#projectText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #cb4335;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#textRow {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    font-family: 'Raleway', sans-serif;
+    color:#141414;
+    min-height: 50px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardCol {
+    display: flex;
+    justify-content: center;
+}
+
+#card {
+    width: 15rem;
+    height: 20rem;
+    margin: 1.5em;
+    padding: 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+
+#stack {
+    text-align: center;
+}
+
+#projectButton {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#projectBtnRow {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#icon {
+    margin-top: 0.2em;
+}
