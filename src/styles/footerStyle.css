@@ -21,5 +21,10 @@
 }
 
 #socialIcon {
+    color: #222121;
     margin: 0em 0.5em 0em 0.5em;
+}
+
+#socialIcon:hover {
+    color: blue;
 }

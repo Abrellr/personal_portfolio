@@ -5,6 +5,8 @@
   "// If You want to install mdbreact from our GitLab repository, please replace '5.0.1' with gitURL provided here ->": "git+https://oauth2:<YOUR-TOKEN-GOES-HERE>@git.mdbootstrap.com/mdb/react/re-pro.git",
   "dependencies": {
     "aos": "^2.3.4",
+    "dotenv": "^8.2.0",
+    "emailjs-com": "^2.6.4",
     "mdbreact": "5.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -12,7 +14,7 @@
     "react-scripts": "4.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node -r dotenv/config src/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",

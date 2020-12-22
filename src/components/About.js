@@ -20,7 +20,7 @@ export default function About() {
                 </MDBCol>
                 <MDBCol id="aboutText">
                 <h5 data-aos="zoom-in">Hi, I'm Rosmalina! I have a master degree in social science and experiences in costumer service.
-                Two years ago I found out my creative side while building my very first simple website. Ever since that I have a growing interest in
+                Two years ago I met my creative side while building my very first simple website. Ever since that I have a growing interest in
                 web development. That is why starting early this year I decided to give more focus on this area
                 and joined a fulltime training as full stack web developer.
                 Check out some of the projects I have been working on recently. </h5>
