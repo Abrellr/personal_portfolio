@@ -12,7 +12,7 @@ import Contact from './components/Contact';
 function App() {
 
   useEffect(() => {
-    Aos.init({ duration: 900 })
+    Aos.init({ duration: 900, disable: 'mobile' })
   }, [])
 
   return (

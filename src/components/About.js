@@ -11,9 +11,9 @@ export default function About() {
         <MDBContainer fluid id="aboutContain" >
             <MDBRow id="aboutRow" style={{ overflowX: "hidden"}}>
                 <MDBCol id="about" >
-                    <h3 data-aos="fade-right" id="aboutTitle1" >About me</h3>
-                    <h3 data-aos="fade-right"  id="and" > & </h3>
-                    <span><h4 data-aos="fade-left" id="aboutTitle2">Web Development</h4></span>
+                    <h3 data-aos="fade-down" id="aboutTitle1" >About me</h3>
+                    <h3 data-aos="fade-down"  id="and" > & </h3>
+                    <span><h4 data-aos="fade-down" id="aboutTitle2">Web Development</h4></span>
                 </MDBCol>
                 <MDBCol id="fotoCol">
                 <img data-aos="flip-left" id="foto" src={profil} className="img-fluid z-depth-1 rounded-circle" alt="" />

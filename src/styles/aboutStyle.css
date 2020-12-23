@@ -57,3 +57,15 @@ h5 {
    font-weight: 400;
    text-shadow: 0.5px 0.25px #141414;
 }
+
+@media screen and (max-width: 768px) {
+    #aboutTitle1, #and, #aboutTitle2{
+      font-size: 1.5rem;
+    }
+    #aboutRow {
+        overflow-x: hidden;
+    } 
+    h5 {
+     font-size: 1rem;
+    }
+}

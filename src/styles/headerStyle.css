@@ -45,15 +45,18 @@
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
+/* @media screen and (min-width: 568px) {
     #hello {
       font-size: 4rem;
       font-weight: 800;
       margin-top: 1em;
     }
-  }
+    #text {
+      overflow-x: hidden;
+    }
+  } */
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     #hello {
       font-size: 4rem;
       font-weight: 800;
@@ -64,9 +67,11 @@
       } 
     #text {
         margin-top: 8em;
+        overflow-x: hidden;
     }
     #header {
         background-size: 100vw 50vh;
         height: 70vh;
     }
+    
   }

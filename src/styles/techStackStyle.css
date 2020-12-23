@@ -86,4 +86,9 @@
     #techContainer {
         background-size: 100vw 50vh;
     }
+    #techCard {
+        width: 19rem;
+        height: 23rem;
+    
+    }
   }
