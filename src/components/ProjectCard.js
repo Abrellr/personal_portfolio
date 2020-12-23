@@ -35,7 +35,7 @@ export default function ProjectCard(props) {
               <MDBCol key={idx} id="cardCol">
                 <MDBCard id="card" className="hoverable">
                   <MDBCardBody id="cardbody">
-                    <a href="http://google.com">
+                    <a href={project.url}>
                       <MDBView hover>
                         <img
                           src={project.image}
