@@ -56,7 +56,7 @@ export default function ProjectCard(props) {
                         {project.title}
                       </MDBCardTitle>
                     </div>
-                    <MDBCardText>lorem ipsum text imonem</MDBCardText>
+                    <MDBCardText>{project.description}</MDBCardText>
                     <MDBContainer id="projectBtnRow">
                       {/* <MDBBtn
                       id="projectButton"
