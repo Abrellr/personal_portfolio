@@ -36,7 +36,7 @@ export default function ProjectCard(props) {
                 <MDBCard id="card" className="hoverable">
                   <MDBCardBody id="cardbody">
                     <a href={project.url}>
-                      <MDBView hover>
+                      <MDBView hover id="projectImage">
                         <img
                           src={project.image}
                           className="img-fluid"

@@ -45,6 +45,10 @@
     margin: 1.5em;
 }
 
+#techCard:hover {
+    transform: scale(1.1);
+}
+
 #techBody {
     display: flex;
     flex-direction: column;

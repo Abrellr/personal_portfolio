@@ -12,9 +12,6 @@ import React, { useState } from "react";
 import "../styles/contactStyle.css";
 import emailjs from "emailjs-com";
 
-const { REACT_APP_USER_ID }  = process.env;
-console.log(REACT_APP_USER_ID);
-
 const Contact = () => {
 
   function sendEmail(e) {

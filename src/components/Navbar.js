@@ -26,9 +26,9 @@ render() {
             <MDBNavItem>
                 <a id="nav" href="#aboutContain">about</a>
             </MDBNavItem>
-            <MDBNavItem>
+            {/* <MDBNavItem>
                 <a id="nav" href="#!">CV</a>
-            </MDBNavItem>
+            </MDBNavItem> */}
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>

@@ -1,13 +1,14 @@
 import timestamp from "../images/timestamp.png"
 import newsBot from "../images/newsBot.png"
 import pokeChallenge from "../images/pokeChallenge.png"
+import portfolio from "../images/portfolio.png"
 
 const projectsList = [
     {
         id: 1,
         title: "Timestamp",
         stackUsed: "PostgreSQL, Express.js, React, Node.js, React Bootstrap", 
-        description: "This working time tracking application is built as PERN stack web application with CR(U)D operations. The update operation and authentication is still on development",
+        description: "This work-time tracking application is built as PERN stack web application with CRUD operations. The individual authentication is still under construction.",
         image: timestamp,
         url: "https://github.com/Abrellr/finale"
     },
@@ -23,9 +24,18 @@ const projectsList = [
         id: 3,
         title: "NewsBot",
         stackUsed: "React, Hackernews API, vanilla CSS",
-        description: "News search site using hackernews api and vanilla css on react",
+        description: "News search site using hackernews api and vanilla css on react.",
         image: newsBot,
         url: "https://abrellr.github.io/hackernews/"
+    },
+    {
+        id: 4,
+        title: "Portfolio",
+        stackUsed: "React, MDBootstrap",
+        description: "A single page application using react and MDBootstrap for react on the UI.",
+        image: portfolio,
+        url: "https://abrellr.github.io/hackernews/"
+
     }
 ]
 
