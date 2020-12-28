@@ -2,6 +2,7 @@ import timestamp from "../images/timestamp.png"
 import newsBot from "../images/newsBot.png"
 import pokeChallenge from "../images/pokeChallenge.png"
 import portfolio from "../images/portfolio.png"
+import contentful from "../images/contentful.png"
 
 const projectsList = [
     {
@@ -10,7 +11,8 @@ const projectsList = [
         stackUsed: "PostgreSQL, Express.js, React, Node.js, React Bootstrap", 
         description: "This work-time tracking application is built as PERN stack web application with CRUD operations. The individual authentication is still under construction.",
         image: timestamp,
-        url: "https://github.com/Abrellr/finale"
+        url: "https://github.com/Abrellr/finale",
+        github: "https://github.com/Abrellr/finale"
     },
     {
         id: 2,
@@ -18,7 +20,8 @@ const projectsList = [
         stackUsed: "React, React Drag & Drop, Pokemon API, NodeJS, Express, MaterialUI",
         description: "A react application with pokemon challenge theme, using a simple backend managed with Node and Express.",
         image: pokeChallenge,
-        url: "https://pokemonwbs.netlify.app"
+        url: "https://pokemonwbs.netlify.app",
+        github: "https://github.com/imodrews/pokemon_frontend"
     },
     {
         id: 3,
@@ -26,7 +29,8 @@ const projectsList = [
         stackUsed: "React, Hackernews API, vanilla CSS",
         description: "News search site using hackernews api and vanilla css on react.",
         image: newsBot,
-        url: "https://abrellr.github.io/hackernews/"
+        url: "https://abrellr.github.io/hackernews/",
+        github: "https://github.com/Abrellr/hackernews"
     },
     {
         id: 4,
@@ -34,8 +38,17 @@ const projectsList = [
         stackUsed: "React, MDBootstrap",
         description: "A single page application using react and MDBootstrap for react on the UI.",
         image: portfolio,
-        url: "https://abrellr.github.io/hackernews/"
-
+        url: "https://abrellr-r.netlify.app",
+        github: "https://github.com/Abrellr/personal_portfolio"
+    },
+    {
+        id: 5,
+        title: "Contentful Cookbok",
+        stackUsed: "React, Contentful, vanilla CSS",
+        description: "A react page to test the headless CMS with contentful.",
+        image: contentful,
+        url: "https://contentful-cookbook.netlify.app/",
+        github: "https://github.com/Abrellr/contentful_cookbook"
     }
 ]
 

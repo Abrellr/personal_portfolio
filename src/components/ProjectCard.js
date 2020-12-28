@@ -41,6 +41,7 @@ export default function ProjectCard(props) {
                           src={project.image}
                           className="img-fluid"
                           alt="projectfoto"
+                          style={{ width: "100%", height: "180px" }}
                         />
                         <MDBMask
                           id="stack"
@@ -56,7 +57,12 @@ export default function ProjectCard(props) {
                         {project.title}
                       </MDBCardTitle>
                     </div>
+                    <div id="descDiv">
                     <MDBCardText>{project.description}</MDBCardText>
+                    </div>
+                    <div id="buttonDiv">
+                    <a href={project.github}><MDBBtn color="primary">See code</MDBBtn></a>
+                    </div>
                     <MDBContainer id="projectBtnRow">
                       {/* <MDBBtn
                       id="projectButton"
