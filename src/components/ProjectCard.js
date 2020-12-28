@@ -27,6 +27,7 @@ export default function ProjectCard(props) {
         <h3 data-aos="fade-right" className="text-center" id="projectText">
           Check out my latest work
         </h3>
+        <p id="projectTextTwo">click on image to see the demo</p>
       </MDBRow>
       <MDBRow id="cardRow" data-aos="fade-left">
         {ProjectList &&
@@ -41,7 +42,7 @@ export default function ProjectCard(props) {
                           src={project.image}
                           className="img-fluid"
                           alt="projectfoto"
-                          style={{ width: "100%" }}
+                          style={{ width: "100%", height: "180px" }}
                         />
                         <MDBMask
                           id="stack"
