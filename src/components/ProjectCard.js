@@ -41,7 +41,7 @@ export default function ProjectCard(props) {
                           src={project.image}
                           className="img-fluid"
                           alt="projectfoto"
-                          style={{ width: "100%", height: "180px" }}
+                          style={{ width: "100%" }}
                         />
                         <MDBMask
                           id="stack"

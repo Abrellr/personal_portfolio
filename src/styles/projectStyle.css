@@ -46,7 +46,7 @@
 
 #card {
     width: 20rem;
-    height: 26rem;
+    min-height: 26rem;
     margin: 1.5em;
     padding: 0em;
     display: flex;
