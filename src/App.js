@@ -22,6 +22,7 @@ function App() {
     <About />
     <TechStack />
     <ProjectCard />
+    <Contact />
     <Footer />
     </>
   )

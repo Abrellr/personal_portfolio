@@ -45,7 +45,7 @@ export default function TechStack(props) {
               <MDBCardTitle className="text-center" id="techTitle">The tools I use</MDBCardTitle>
               </MDBContainer>
               <MDBCardText id="techDetail">
-              Github, Jira, Trello, Agile-Scrum, Netlify, Vercel, Heroku
+              Github, Jira, Agile-Scrum, Netlify, Vercel, Heroku, Trello, Canva, Mockflow, Diagrams.net
               </MDBCardText>
             </MDBCardBody>
           </MDBCard>
