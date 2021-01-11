@@ -33,6 +33,7 @@ export default function TechStack(props) {
               <MDBCardText id="techDetail">
                 HTML, CSS, JavaScript, ReactJS, React-Bootstrap, MDBootstrap,
                 MaterialUI, NodeJS, PostgreSQL, ExpressJS, MongoDB
+                <br/><span>Current learning: PHP</span>
               </MDBCardText>
             </MDBCardBody>
           </MDBCard>

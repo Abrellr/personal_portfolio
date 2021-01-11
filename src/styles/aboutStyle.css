@@ -54,8 +54,7 @@ h5 {
    text-align: center;
    line-height: 1.8;
    font-size: 1.25rem;
-   font-weight: 400;
-   text-shadow: 0.5px 0.25px #141414;
+   font-weight: 450;
 }
 
 @media screen and (max-width: 768px) {
