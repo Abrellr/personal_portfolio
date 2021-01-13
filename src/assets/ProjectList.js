@@ -11,7 +11,7 @@ const projectsList = [
         stackUsed: "PostgreSQL, Express.js, React, Node.js, React Bootstrap", 
         description: "This work-time tracking application is built as PERN stack web application with CRUD operations. The individual authentication is still under construction.",
         image: timestamp,
-        url: "https://github.com/Abrellr/finale",
+        url: "https://abrell-timestamp.netlify.app/",
         github: "https://github.com/Abrellr/finale"
     },
     {
