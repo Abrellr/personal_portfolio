@@ -9,7 +9,7 @@ const projectsList = [
         id: 1,
         title: "Timestamp",
         stackUsed: "PostgreSQL, Express.js, React, Node.js, React Bootstrap", 
-        description: "This work-time tracking application is built as PERN stack web application with CRUD operations. The individual authentication is still under construction.",
+        description: "This work-time tracking application is built as PERN stack web application with CRUD operations.",
         image: timestamp,
         url: "https://abrell-timestamp.netlify.app/",
         github: "https://github.com/Abrellr/finale"
@@ -18,7 +18,7 @@ const projectsList = [
         id: 2,
         title: "Pokemon",
         stackUsed: "React, React Drag & Drop, Pokemon API, NodeJS, Express, MaterialUI",
-        description: "A react application with pokemon challenge theme, using a simple backend managed with Node and Express.",
+        description: "A react application with pokemon challenge theme, using combination of a simple JSON file and Poke API on the backend.",
         image: pokeChallenge,
         url: "https://pokemonwbs.netlify.app",
         github: "https://github.com/imodrews/pokemon_frontend"

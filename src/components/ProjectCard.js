@@ -59,19 +59,12 @@ export default function ProjectCard(props) {
                       </MDBCardTitle>
                     </div>
                     <div id="descDiv">
-                    <MDBCardText>{project.description}</MDBCardText>
+                    <MDBCardText className="descText">{project.description}</MDBCardText>
                     </div>
                     <div id="buttonDiv">
                     <a href={project.github}><MDBBtn color="primary">See code</MDBBtn></a>
                     </div>
                     <MDBContainer id="projectBtnRow">
-                      {/* <MDBBtn
-                      id="projectButton"
-                      color="primary"
-                      onClick={() => setToggle(true)}
-                    >
-                      MDBBtn
-                    </MDBBtn> */}
                     </MDBContainer>
                     <MDBModal color="primary" isOpen={toggle} size="md">
                       <MDBModalHeader></MDBModalHeader>

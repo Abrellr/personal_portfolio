@@ -91,13 +91,21 @@ span {
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-  @media screen and (max-width: 600px) {
-    #techContainer {
-        background-size: 100vw 50vh;
-    }
-    #techCard {
-        width: 19rem;
-        height: 23rem;
-    
-    }
-  }
+@media only screen and (max-width: 60em) {
+#techContainer {
+    background-size: 100vw 50vh;
+}
+
+#techTitle {
+    font-size: 1.7rem;
+}
+
+#techDetail {
+    font-size: 1.1rem;
+}
+
+#techCard {
+    width: auto;
+    height: fit-content;
+}
+}

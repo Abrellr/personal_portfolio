@@ -57,7 +57,7 @@ h5 {
    font-weight: 450;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 60em) {
     #aboutTitle1, #and, #aboutTitle2{
       font-size: 1.5rem;
     }
