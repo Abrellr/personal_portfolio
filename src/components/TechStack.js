@@ -31,7 +31,7 @@ export default function TechStack(props) {
               <MDBCardTitle id="techTitle">My tech stack knowledge</MDBCardTitle>
               </MDBContainer>
               <MDBCardText id="techDetail">
-                HTML, CSS, JavaScript, ReactJS, React-Bootstrap, MDBootstrap,
+                HTML, CSS, JavaScript, ReactJS, VueJS, React-Bootstrap, MDBootstrap,
                 MaterialUI, NodeJS, PostgreSQL, ExpressJS, MongoDB
                 <br/><span>Current learning: PHP</span>
               </MDBCardText>
