@@ -11,10 +11,10 @@ import "../styles/contactStyle.css";
 import emailjs from "emailjs-com";
 
 export default function Contact() {
-  function sendEmail(e) {
+  function handleValidation(e) {
     e.preventDefault();
-    if (name == "") {
-      return console.log("forms are empty");
+    if (e.target === "") {
+      alert("forms are empty");
     } else {
       emailjs
         .sendForm(
@@ -38,7 +38,7 @@ export default function Contact() {
     <MDBContainer>
       <MDBRow>
         <MDBCol md="6">
-          <form onSubmit={sendEmail}>
+          <form onSubmit={handleValidation}>
             <p className="h5 text-center mb-4">Write to us</p>
             <div className="grey-text">
               <MDBInput

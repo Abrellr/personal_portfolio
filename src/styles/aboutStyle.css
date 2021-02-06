@@ -1,70 +1,81 @@
 #aboutContain {
-    background-color: #03989e;
-    width: 100vw;
-    min-height: 120vh;
-    padding-bottom: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
+  background-color: #03989e;
+  width: 100vw;
+  min-height: fit-content;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 #aboutRow {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2em;
+  width: 70%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
 }
 
 #fotoCol {
-    width: 100%;
-    margin-top: 2em;
-    display: flex;
-    justify-content: center;
-
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
 }
 
 #foto {
-    width: 20vw;
-    display: flex;
-    justify-content: center;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
 }
 
-#about, #aboutText {
-    margin-top: 2em;
+#about,
+#aboutText {
+  margin-top: 2em;
 }
-#aboutTitle1, #and, #aboutTitle2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: #141414;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+#aboutTitle1,
+#and,
+#aboutTitle2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #141414;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 #aboutTitle2 {
-    color: white;
+  color: white;
 }
 
 h5 {
-   color: #141414;
-   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
-   segoe ui, arial, sans-serif;
-   text-align: center;
-   line-height: 1.8;
-   font-size: 1.25rem;
-   font-weight: 450;
+  color: #141414;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1.25rem;
+  font-weight: 450;
 }
 
-@media only screen and (max-width: 60em) {
-    #aboutTitle1, #and, #aboutTitle2{
-      font-size: 1.5rem;
-    }
-    #aboutRow {
-        overflow-x: hidden;
-    } 
-    h5 {
-     font-size: 1rem;
-    }
+@media only screen and (max-width: 1024px) {
+  #aboutTitle1,
+  #and,
+  #aboutTitle2 {
+    font-size: 1.5rem;
+  }
+  #aboutRow {
+    height: fit-content;
+    overflow-x: hidden;
+  }
+  #aboutContain {
+    height: fit-content;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  #foto {
+    width: 23vw;
+  }
 }

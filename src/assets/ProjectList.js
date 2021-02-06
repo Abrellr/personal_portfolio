@@ -3,6 +3,7 @@ import newsBot from "../images/newsBot.png";
 import pokeChallenge from "../images/pokeChallenge.png";
 import portfolio from "../images/portfolio.png";
 import contentful from "../images/contentful.png";
+import trivia from "../images/trivia.png";
 
 const projectsList = [
   {
@@ -54,6 +55,16 @@ const projectsList = [
     image: contentful,
     url: "https://contentful-cookbook.netlify.app/",
     github: "https://github.com/Abrellr/contentful_cookbook",
+  },
+  {
+    id: 6,
+    title: "Trivia Game",
+    stackUsed: "React, Bootstrap",
+    description:
+      "A simple game app for school kids to test their knowledge about landmarks.",
+    image: trivia,
+    url: "https://trivia-abrell.netlify.app/",
+    github: "https://github.com/Abrellr/trivia",
   },
 ];
 
