@@ -4,6 +4,7 @@ import pokeChallenge from "../images/pokeChallenge.png";
 import portfolio from "../images/portfolio.png";
 import contentful from "../images/contentful.png";
 import trivia from "../images/trivia.png";
+import phpBlog from "../images/phpBlog.png";
 
 const projectsList = [
   {
@@ -65,6 +66,16 @@ const projectsList = [
     image: trivia,
     url: "https://trivia-abrell.netlify.app/",
     github: "https://github.com/Abrellr/trivia",
+  },
+  {
+    id: 7,
+    title: "PHP Blog",
+    stackUsed: "PHP, MySQL, Bootstrap",
+    description:
+      "Creating a simple blog to test PHP and MySQL with xampp. The blog is not deployed, thus you can check it at Github.",
+    image: phpBlog,
+    url: "https://github.com/Abrellr/PHPblog",
+    github: "https://github.com/Abrellr/PHPblog",
   },
 ];
 
