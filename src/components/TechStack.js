@@ -11,42 +11,58 @@ import {
 } from "mdbreact";
 import "../styles/techStackStyle.css";
 
-
 export default function TechStack(props) {
-
-
-
   return (
-    <MDBContainer fluid id="techContainer" >
-      <MDBRow  id="techRow" style={{ overflowX: "hidden"}}>
-        <h3 data-aos="fade-right" id="techText">"We learn, thus we grow"</h3>
-        <p  data-aos="fade-right" id="quoteAuthor">anonym</p>
+    <MDBContainer fluid id="techContainer">
+      <MDBRow id="techRow" style={{ overflowX: "hidden" }}>
+        <h3 data-aos="fade-right" id="techText">
+          "We learn, thus we grow"
+        </h3>
+        <p data-aos="fade-right" id="quoteAuthor">
+          anonym
+        </p>
       </MDBRow>
-      <MDBRow  id="techRow2">
-        <MDBCol style={{ display: "flex", justifyContent: "center"}}>
+      <MDBRow id="techRow2">
+        <MDBCol style={{ display: "flex", justifyContent: "center" }}>
           <MDBCard data-aos="fade-left" id="techCard">
             <MDBCardBody id="techBody">
-              <MDBIcon id="techIcon" className="red-text pr-3" icon="laptop-code" size="4x" />
+              <MDBIcon
+                id="techIcon"
+                className="red-text pr-3"
+                icon="laptop-code"
+                size="4x"
+              />
               <MDBContainer id="titleBox">
-              <MDBCardTitle id="techTitle">My tech stack knowledge</MDBCardTitle>
+                <MDBCardTitle id="techTitle">
+                  My tech stack knowledge
+                </MDBCardTitle>
               </MDBContainer>
               <MDBCardText id="techDetail">
-                HTML, CSS, JavaScript, ReactJS, VueJS, React-Bootstrap, MDBootstrap,
-                MaterialUI, NodeJS, PostgreSQL, ExpressJS, MongoDB
-                <br/><span>Current learning: PHP</span>
+                HTML, CSS, JavaScript, ReactJS, VueJS, React-Bootstrap,
+                MDBootstrap, MaterialUI, NodeJS, SQL, ExpressJS, MongoDB
+                <br />
+                <span>Current learning: PHP</span>
               </MDBCardText>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
-        <MDBCol style={{ display: "flex", justifyContent: "center"}}>
+        <MDBCol style={{ display: "flex", justifyContent: "center" }}>
           <MDBCard data-aos="fade-left" id="techCard">
             <MDBCardBody id="techBody">
-              <MDBIcon  id="techIcon" className="red-text pr-3" icon="cogs" size="4x" />
+              <MDBIcon
+                id="techIcon"
+                className="red-text pr-3"
+                icon="cogs"
+                size="4x"
+              />
               <MDBContainer id="titleBox">
-              <MDBCardTitle className="text-center" id="techTitle">The tools I use</MDBCardTitle>
+                <MDBCardTitle className="text-center" id="techTitle">
+                  The tools I use
+                </MDBCardTitle>
               </MDBContainer>
               <MDBCardText id="techDetail">
-              Github, Jira, Agile-Scrum, Netlify, Vercel, Heroku, Trello, Canva, Mockflow, Diagrams.net, Contentful, XAMPP.
+                Github, Jira, Agile-Scrum, Netlify, Vercel, Heroku, Trello,
+                Canva, Mockflow, Diagrams.net, Contentful, XAMPP.
               </MDBCardText>
             </MDBCardBody>
           </MDBCard>
