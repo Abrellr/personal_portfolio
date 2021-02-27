@@ -12,7 +12,7 @@ const projectsList = [
     title: "Timestamp",
     stackUsed: "PostgreSQL, Express.js, React, Node.js, React Bootstrap",
     description:
-      "This work-time tracking application is built as PERN stack web application with CRUD operations.",
+      "This work-time tracking application is built as PERN stack web application with CRUD operations and using one-to-many relational database.",
     image: timestamp,
     url: "https://timestamp-abrell.netlify.app/",
     github: "https://github.com/Abrellr/finale",
@@ -70,9 +70,9 @@ const projectsList = [
   {
     id: 7,
     title: "PHP Blog",
-    stackUsed: "PHP, MySQL, Bootstrap",
+    stackUsed: "vanilla PHP, MySQL, Bootstrap",
     description:
-      "Creating a simple blog to test PHP and MySQL with xampp. The blog is not deployed, thus you can check it at Github.",
+      "A loremipsum blog with PHP and MySQL using xammp and dbeaver as database manager. The blog is not deployed, however you can check my codes at Github.",
     image: phpBlog,
     url: "https://github.com/Abrellr/PHPblog",
     github: "https://github.com/Abrellr/PHPblog",
