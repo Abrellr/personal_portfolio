@@ -24,7 +24,7 @@
 }
 
 #foto {
-  width: 20vw;
+  width: 200px;
   display: flex;
   justify-content: center;
 }
@@ -76,6 +76,6 @@ h5 {
     font-size: 1rem;
   }
   #foto {
-    width: 23vw;
+    width: 150px;
   }
 }

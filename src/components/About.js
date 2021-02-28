@@ -27,7 +27,7 @@ export default function About() {
             id="foto"
             src={profil}
             className="img-fluid z-depth-1 rounded-circle"
-            alt=""
+            alt="foto"
           />
         </MDBCol>
         <MDBCol id="aboutText">
