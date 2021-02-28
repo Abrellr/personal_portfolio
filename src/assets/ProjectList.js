@@ -59,10 +59,10 @@ const projectsList = [
   },
   {
     id: 6,
-    title: "Trivia Game",
+    title: "Trivia Games",
     stackUsed: "React, Bootstrap",
     description:
-      "A simple game app for school kids to test their knowledge about landmarks.",
+      "Simple game app for kids. Game one: guess the landmark. Game two: throw the dice.",
     image: trivia,
     url: "https://trivia-abrell.netlify.app/",
     github: "https://github.com/Abrellr/trivia",
