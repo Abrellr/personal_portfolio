@@ -64,7 +64,7 @@ const projectsList = [
     description:
       "Simple game app for kids. Game one: guess the landmark. Game two: throw the dice.",
     image: trivia,
-    url: "https://trivia-abrell.netlify.app/",
+    url: "https://abrell-trivia.netlify.app/",
     github: "https://github.com/Abrellr/trivia",
   },
   {
