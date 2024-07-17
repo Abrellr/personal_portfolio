@@ -34,7 +34,7 @@ export default function About() {
           <h5 data-aos="zoom-in">
             Hi, I'm Rosmalina! 😊 <br />I have a master degree in social science
             and experiences in costumer service and project management. Three
-            years ago I met my creative side while building my very first simple
+            years ago, I met my creative side while building my very first simple
             website. Ever since that I have a growing interest in web
             development 👩‍💻 That is why I decided to give more focus on this
             area. Last year, I joined a fulltime training as full stack web
