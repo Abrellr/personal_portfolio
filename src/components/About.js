@@ -33,13 +33,11 @@ export default function About() {
         <MDBCol id="aboutText">
           <h5 data-aos="zoom-in">
             Hi, I'm Rosmalina! 😊 <br />I have a master degree in social science
-            and experiences in costumer service and project management. Three
-            years ago, I met my creative side while building my very first simple
-            website. Ever since that I have a growing interest in web
-            development 👩‍💻 That is why I decided to give more focus on this
-            area. Last year, I joined a fulltime training as full stack web
-            developer. 🚀 Check out some of the projects I have been working on
-            recently. Or visit my Github page through the link below.
+            and experiences in applications and project management. During corona year,
+            I met my creative side and found my passion in the IT: I built my very own webiste 👩‍💻 
+            After that, I decided to join the fullstack development bootcamp and pursue a new career.
+            During this learning year, I built some web projects 🚀 Check out some of the projects I had been working on. 
+            Or visit my Github page through the link below.
           </h5>
         </MDBCol>
       </MDBRow>
