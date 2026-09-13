@@ -36,23 +36,27 @@ export default function ProjectCard(props) {
               <MDBCol key={idx} id="cardCol">
                 <MDBCard id="card" className="hoverable">
                   <MDBCardBody id="cardbody">
-                    <a href={project.url}>
-                      <MDBView hover id="projectImage">
-                        <img
-                          src={project.image}
-                          className="img-fluid"
-                          alt="projectfoto"
-                          style={{ width: "100%" }}
-                        />
-                        <MDBMask
-                          id="stack"
-                          className="flex-center"
-                          overlay="teal-strong"
-                        >
-                          <h6 className="white-text">{project.stackUsed}</h6>
-                        </MDBMask>
-                      </MDBView>
-                    </a>
+                    {project.image ? (
+                      <a href={project.url}>
+                        <MDBView hover id="projectImage">
+                          <img
+                            src={project.image}
+                            className="img-fluid"
+                            alt="projectfoto"
+                            style={{ width: "100%" }}
+                          />
+                          <MDBMask
+                            id="stack"
+                            className="flex-center"
+                            overlay="teal-strong"
+                          >
+                            <h6 className="white-text">{project.stackUsed}</h6>
+                          </MDBMask>
+                        </MDBView>
+                      </a>
+                    ) : (
+                      <div id="projectImagePlaceholder" aria-hidden="true" />
+                    )}
                     <div id="box">
                       <MDBCardTitle id="title" className="font-weight-bold">
                         {project.title}
@@ -62,7 +66,9 @@ export default function ProjectCard(props) {
                     <MDBCardText className="descText">{project.description}</MDBCardText>
                     </div>
                     <div id="buttonDiv">
-                    <a href={project.github}><MDBBtn color="primary">See code</MDBBtn></a>
+                    {project.github && (
+                      <a href={project.github}><MDBBtn color="primary">See code</MDBBtn></a>
+                    )}
                     </div>
                     <MDBContainer id="projectBtnRow">
                     </MDBContainer>

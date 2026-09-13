@@ -5,8 +5,19 @@ import portfolio from "../images/portfolio.png";
 import contentful from "../images/contentful.png";
 import trivia from "../images/trivia.png";
 import phpBlog from "../images/phpBlog.png";
+import jobHunter from "../images/jobHunter.png";
 
 const projectsList = [
+  {
+    id: 8,
+    title: "Job-hunter-ai",
+    stackUsed: "GPT-4o mini, Eve Agent, Vercel",
+    description:
+      "Job Hunter AI — An AI-powered job-hunting assistant built with GPT-4o mini and Eve Agent. It helps users streamline their job search by intelligently analyzing opportunities and assisting with the application process. The application was deployed on Vercel.",
+    image: jobHunter,
+    url: "https://job-hunter-agent-brown.vercel.app/",
+    github: "https://github.com/Abrellr/job-hunter-agent",
+  },
   {
     id: 1,
     title: "Timestamp",
