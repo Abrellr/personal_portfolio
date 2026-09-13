@@ -34,10 +34,11 @@ export default function About() {
           <h5 data-aos="zoom-in">
             Hi, I'm Rosmalina! 😊 <br />I have a master degree in social science
             and experiences in applications and project management. During corona year,
-            I met my creative side and found my passion in the IT: I built my very own webiste 👩‍💻 
-            After that, I decided to join the fullstack development bootcamp and pursue a new career.
-            During this learning year, I built some web projects 🚀 Check out some of the projects I had been working on. 
-            Or visit my Github page through the link below.
+            I met my creative side and also found my passion in the IT: I built my very own webiste 👩‍💻 
+            In the same year, I decided to join the fullstack development bootcamp and pursue a new career.
+            Since then I have gained work experiences in the IT with a background in logistics and energy-network-operations.
+            Recently in my free time, I am into "vibe coding"with Cursor and building some small AI projects with it.
+            Through the link below, you can see some of my projects.
           </h5>
         </MDBCol>
       </MDBRow>

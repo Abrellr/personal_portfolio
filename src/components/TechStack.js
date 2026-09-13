@@ -38,7 +38,7 @@ export default function TechStack(props) {
                 </MDBCardTitle>
               </MDBContainer>
               <MDBCardText id="techDetail">
-                HTML, CSS, JavaScript, ReactJS, React-Bootstrap, MDBootstrap,
+                Python, HTML, CSS, JavaScript, ReactJS, React-Bootstrap, MDBootstrap,
                 MaterialUI, NodeJS, SQL, ExpressJS, MongoDB
                 <br />
                 <span>Current learning: PHP</span>
@@ -61,8 +61,8 @@ export default function TechStack(props) {
                 </MDBCardTitle>
               </MDBContainer>
               <MDBCardText id="techDetail">
-                Github, Jira, Agile-Scrum, Netlify, Vercel, Heroku, Trello,
-                Canva, Mockflow, Diagrams.net, Contentful, XAMPP.
+                Cursor, Langflow, Github, Confluence, Jira, Agile-Scrum, Netlify, Vercel, Heroku, Trello,
+                Canva, Mockflow, Diagrams.net, Contentful
               </MDBCardText>
             </MDBCardBody>
           </MDBCard>
