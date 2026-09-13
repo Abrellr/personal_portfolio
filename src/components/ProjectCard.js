@@ -38,7 +38,15 @@ export default function ProjectCard(props) {
                   <MDBCardBody id="cardbody">
                     {project.image ? (
                       <a href={project.url}>
-                        <MDBView hover id="projectImage">
+                        <MDBView
+                          hover
+                          id="projectImage"
+                          className={
+                            project.imageFit === "contain"
+                              ? "project-image-contain"
+                              : undefined
+                          }
+                        >
                           <img
                             src={project.image}
                             className="img-fluid"

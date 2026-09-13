@@ -15,6 +15,7 @@ const projectsList = [
     description:
       "Job Hunter AI — An AI-powered job-hunting assistant built with GPT-4o mini and Eve Agent. It helps users streamline their job search by intelligently analyzing opportunities and assisting with the application process. The application was deployed on Vercel.",
     image: jobHunter,
+    imageFit: "contain",
     url: "https://job-hunter-agent-brown.vercel.app/",
     github: "https://github.com/Abrellr/job-hunter-agent",
   },

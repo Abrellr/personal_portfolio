@@ -131,6 +131,19 @@
     margin: 0;
 }
 
+#projectImage.project-image-contain {
+    background-color: #000;
+    aspect-ratio: 320 / 201;
+}
+
+#projectImage.project-image-contain img {
+    width: 100% !important;
+    height: 100%;
+    aspect-ratio: unset;
+    object-fit: contain;
+    object-position: center;
+}
+
 #projectImage:hover {
     cursor: pointer;
 }
