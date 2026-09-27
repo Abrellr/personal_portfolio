@@ -41,7 +41,7 @@ export default function TechStack(props) {
                 Python, HTML, CSS, JavaScript, ReactJS, React-Bootstrap, MDBootstrap,
                 MaterialUI, NodeJS, SQL, ExpressJS, MongoDB
                 <br />
-                <span>Current learning: PHP</span>
+                <span>Current learning: Building with AI</span>
               </MDBCardText>
             </MDBCardBody>
           </MDBCard>

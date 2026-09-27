@@ -20,7 +20,7 @@ export default function Footer() {
         <p>Joyfully built on a react application</p>
       </MDBRow>
       <MDBRow id="copyRow">
-        <p>© Copyright 2021</p>
+        <p>© Copyright 2026</p>
       </MDBRow>
     </MDBContainer>
   );

@@ -11,13 +11,9 @@ export default function About() {
           <h3 data-aos="fade-down" id="aboutTitle1">
             About me
           </h3>
-          <h3 data-aos="fade-down" id="and">
-            {" "}
-            &{" "}
-          </h3>
           <span>
             <h4 data-aos="fade-down" id="aboutTitle2">
-              Web Development
+              IT Generalist            
             </h4>
           </span>
         </MDBCol>
